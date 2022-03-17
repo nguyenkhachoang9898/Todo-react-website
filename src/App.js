@@ -14,7 +14,6 @@ function App() {
   //chi? chay. ham` 1 lan khi web start
   useEffect(() => {
     getLocalTodos();
-    console.log('change url origin')
   }, []);
 
   //UseEffect
