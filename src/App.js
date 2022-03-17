@@ -14,6 +14,7 @@ function App() {
   //chi? chay. ham` 1 lan khi web start
   useEffect(() => {
     getLocalTodos();
+    console.log(11111)
   }, []);
 
   //UseEffect
